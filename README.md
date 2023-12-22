@@ -4,9 +4,10 @@ After a day of scourging the internet to find something that would help me with 
 I hope this helps you as much as it has helped me for cleaning up unused tables within my data model. 
 
 
-To use this script, create a folder and put all files from here in it.
+To use this script, download the tableLookUp.zip and extract it.
 
-There are 3 Python scripts in this repo: main.py, cleanUp.py, and searchForTable.py
+There are 3 Python scripts in this repo: main.py, cleanUp.py, and searchForTable.py. I added these files outside of the ZIP file for you to see before 
+downloading and utilizing. 
 
 When you first use this, you will have to set the paths inside of all the scripts that you are running (there are comments in the code on what paths to change)
 Run the main.py program first as this will take all of your .pbix files from your folder (it **WONT** remove them, just make copies it needs) and extract them into
