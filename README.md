@@ -16,3 +16,8 @@ extracts the ZIP files, it will convert the layout file inside of it to a text f
 newly created layout_output.txt file and create a SearchReults.txt file (you will set the path where you want that to be created) that will list all of the reports
 that utilize that Table Name. The program is not case sensitive (FactTable and facttable will return same results) but does need to be exact of what the table is
 (for example: FactTable and FactTa will not result in the same findings. You must put in the full namme of the table you're looking for)
+
+After you run the main.py script for the first time, you do not have to run it again (unless the reports change, are added, or removed, from the folder where you're
+looking up a Table's Name.) After you use main.py one time, you can just run the searchForTable.py (remember to set the paths to where your folders are, it gives you 
+directions in the script) to continue to search through your reports for Tables. The cleanUp.py can be run to delete all the ZIP and UNZIPPED files from the folders
+if you wish to clean them up after you're done. If you do run the cleanUp.py, you will have to run the main.py script again if you want to use the table search. 
