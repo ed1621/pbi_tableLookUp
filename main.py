@@ -87,7 +87,7 @@ print("\n")
 # Function to print the content of the layout file to a text file
 def print_layout_content(layout_path, output_file):
     try:
-        with open(layout_path, 'r', encoding='utf-8') as layout_file, open(output_file, 'w', encoding='utf-8') as output:
+        with open(layout_path, 'r', encoding='ISO-8859-1') as layout_file, open(output_file, 'w', encoding='utf-8') as output:
             layout_content = layout_file.read()
             output.write(layout_content)
     except FileNotFoundError:
